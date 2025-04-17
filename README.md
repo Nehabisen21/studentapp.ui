@@ -3,12 +3,11 @@
 ### Application Look:
 - Registration Form:
 
-![image](https://github.com/user-attachments/assets/58e841f0-497e-424c-a1bb-444febddd8c8)
+![image](https://github.com/user-attachments/assets/fb9be423-c450-4d4e-b798-8c926928f626)
 
 - Database list:
 
-![image](https://github.com/user-attachments/assets/bdb9dded-5083-4cdd-9af8-4a1c27019fcc)
-
+![image](https://github.com/user-attachments/assets/00346361-c4b6-41ac-a38f-0bc7150819f2)
 
 ### STEPS TO IMPLEMENT THE PROJECT
 - **<p id="Docker">Deployment using Docker</p>**
