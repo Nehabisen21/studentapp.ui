@@ -33,7 +33,7 @@
   #
   - Build the Dockerfile
   ```bash
-  docker build -t studentappUI .
+  docker build -t studentapp .
   ```
   #
   - Create a docker network
@@ -48,7 +48,7 @@
   #
   - Run Application container
   ```bash
-  docker run -itd --name studentapp --network=studentapp -p 8080:8080 studentappUI
+  docker run -itd --name studentapp --network=studentapp -p 8080:8080 studentapp
   ```
   #
   - Verify deployment
