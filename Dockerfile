@@ -16,7 +16,7 @@ FROM tomcat:9.0.78-jdk17-temurin-jammy as runtime
 # Copy WAR to Tomcat webapps
 COPY --from=build /app/target/*.war /usr/local/tomcat/webapps/app.war
 
-# Copy MySQL JDBC driver (make sure this is the correct version)
+# Copy MySQL JDBC driver
 COPY mysql-connector.jar /usr/local/tomcat/lib/
 
 # Expose port
